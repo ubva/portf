@@ -10,7 +10,7 @@
             <div class="experience__box">
                 <div class="experience__box-wrapper">
                     <div class="experience__box-ellips">
-                            <span class="experience__box-circle"></span>
+                            <!-- <span class="experience__box-circle"></span> -->
                         </div>
                         <div class="experience__box-wrap">
                             <p class="experience__box-spn" count="90">90%</p>

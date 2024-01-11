@@ -2,7 +2,6 @@
     background: #EBFFE4;
     position: relative;
     width: 100%;
-    // z-index: 99;
     &__anime{
         content: "";
         display: block;
@@ -20,7 +19,17 @@
     @include media(500) {
         padding: 15px 0;
     }
-
+    &__title{
+        @include media(800) {
+            font-size: 22px;
+        }
+        @include media(600) {
+            font-size: 20px;
+        }
+        @include media(450) {
+            font-size: 18px;
+        }
+    }
     &__logo {
         color: #051101;
         @include media(500) {
@@ -65,13 +74,13 @@
             position: fixed;
             flex-direction: column;
             align-items: center;
-            background-color: #000;
+            background-color: rgba(137, 234, 105, 0.7);
             top: 0;
             right: -300px;
             height: 100vh;
             padding: 60px;
             transition: 0.5s;
-
+            z-index: 99;
             &.active {
                 right: 0;
             }
@@ -84,6 +93,9 @@
         font-weight: 500;
         padding: 34px 0;
         display: block;
+        @include media(800) {
+            font-size: 16px;
+        }
 
         &.router-link-active {
             font-weight: 700;
