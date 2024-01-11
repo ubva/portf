@@ -7,11 +7,11 @@
           <h1>Omina Muhammad</h1>
         </routerLink>
         <button class="nav__burger" @click="burger = true">
-          <img src="../../assets/images/burger.svg" alt="" />
+          <!-- <img src="../../assets/images/burger.svg" alt="" /> -->
         </button>
         <ul class="nav__list" :class="{ active: burger }">
           <button class="nav__close" @click="burger = false">
-            <img src="../../assets/images/close.svg" alt="" />
+            <!-- <img src="../../assets/images/close.svg" alt="" /> -->
           </button>
           <li>
             <button  class="nav__link">About Me</button>
