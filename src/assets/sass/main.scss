@@ -1,0 +1,12 @@
+@import './fonts.scss', './common.scss',
+'./media.scss',
+"../../components/Nav/Nav.scss",
+"../../components/Intro/Intro.scss",
+"../../components/About/About.scss",
+"../../components/Experience/Experience.scss",
+"../../components/Portfolio/Portfolio.scss",
+"../../components/Contact/Contact.scss";
+
+body {
+    background: #fff;
+}

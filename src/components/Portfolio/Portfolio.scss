@@ -1,0 +1,59 @@
+.portfolio{
+    text-align: center;
+    display: block;
+    border-left: 6px solid #89ea69;
+    border-right: 6px solid #89ea69;
+    padding: 80px;
+        background-image:  url("../../assets/images/View.png"), url("../../assets/images/rectangle.png") ;
+        background-repeat: no-repeat;
+        background-size: 150px , 300px;
+        background-position: 95px 170px,  210px 145px;
+    &__title{
+        font-size: 44px;
+        font-weight: 700;
+        line-height: 57px;
+        text-align: center;
+        margin-bottom: 3px;
+        position: relative;
+        &::after{
+            content: "";
+            width: 20px;
+            height: 20px;
+            background:#5CBE3A;
+            display: block;
+            border-radius: 50%;
+            position: absolute;
+            top: 39%;
+            right: 38.5%;
+            margin: 0 auto;
+        }
+        &::before{
+            content: "";
+            width: 20px;
+            height: 20px;
+            background:#5CBE3A;
+            display: block;
+            border-radius: 50%;
+            position: absolute;
+            top: 35%;
+            right: 60%;
+            margin: 0 auto;
+        }
+    }
+    &__desc{
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 24px;
+        text-align: center;
+        color: #61705C;
+    }
+    &__swiper{
+        padding: 80px 50px;
+        }
+    .swiper-button-prev{
+        color: #5CBE3A;
+    }
+    .swiper-button-next{
+        color: #5CBE3A;
+    }
+}

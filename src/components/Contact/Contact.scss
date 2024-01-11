@@ -1,0 +1,49 @@
+.contact{
+    text-align: center;
+    display: block;
+    border-left: 6px solid #89ea69;
+    border-right: 6px solid #89ea69;
+    padding: 80px;
+    &__wrapper{
+        background-color:rgba(235, 255, 228, 1);
+        border-radius: 20px;
+        padding: 50px;
+        margin-bottom: 40px;
+    }
+    &__title{
+        font-size: 44px;
+        font-weight: 700;
+        line-height: 57px;
+        text-align: center;
+        margin-bottom: 3px;
+        position: relative;
+        color: #61705C;
+    }
+    &__desc{
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 24px;
+        text-align: center;
+        color: #4d7e35;
+        margin-bottom: 30px;
+    }
+    &__list{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        gap: 45px;
+        margin-bottom: 30px;
+        &-item{
+            padding: 12px;
+            background-color: #5CBE3A;
+            box-shadow: 0 0 10px rgba(91, 190, 58, 0.304),
+            0 0 20px rgba(91, 190, 58, 0.304),
+            0 0 30px rgba(91, 190, 58, 0.304),
+            0 0 40px rgba(91, 190, 58, 0.304);
+            border-radius: 7px;
+            display: flex;
+            align-items: center;
+            justify-content: center ;
+        }
+    }
+}
